@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I previously installed Python 3 on my computer for work. Research suggested that the main reasons to stick with Python 2 relate to the greater number of accessible libraries, better documentation and learning resources for beginners, as well as the fact that it is predicted to dominate for at least the next 5 or so years. However, around 80% of the major libraries used have been ported to Python 3, including essentials such as NumPy and the rest of the scientific stack, and this is steadily increasing. New features are also being added exclusively to Python 3 reinforcing that it is the "future of the language." Finally, it is considered to be a cleaner and more consistent language.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> On a mac, type "python" in Terminal.
 
  
 
