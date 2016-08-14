@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will use emacs. The choice seemed to be mainly between emacs and vim, both of which are described as more powerful and better for programming than nano. In deciding between emacs and vim, I chose emacs because it is considered to be slightly easier to learn than vim while offering greater customizability 
 
 --
 
