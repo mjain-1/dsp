@@ -13,7 +13,16 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > cd: change directory
+mv: move a directory
+less: page through the contents of a file
+find: find files
+grep: find strings within files
+man: call up the manual page for a command
+xargs: execute arguments
+chmod: change permission modifiers
+chown: change ownership
+< or >: sends the input from one file to another file in the direction of the arrow 
 
 ---
 
