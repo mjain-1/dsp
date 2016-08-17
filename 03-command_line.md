@@ -47,7 +47,8 @@ ls -a: display all files
 ls -rt: display listings by oldest modified  
 ls -lh: dispaly files in long, human-readable format  
 ls -1: display files with each file in 1 row  
-ls -u: display file by access time
+ls -u: display file by access time  
+
 ---
 
 ###Q4.  Xargs   
