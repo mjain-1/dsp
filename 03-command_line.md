@@ -13,31 +13,20 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > cd: change directory
-mv: move a directory
-less: page through the contents of a file
-find: find files
-grep: find strings within files
-man: call up the manual page for a command
-xargs: execute arguments
-chmod: change permission modifiers
-chown: change ownership
-< or >: sends the input from one file to another file in the direction of the arrow 
+> > cd: change directory  mv: move a directory  less: page through the contents of a file  find: find files  grep: find strings within files  man: call up the manual page for a command  xargs: execute arguments  chmod: change permission modifiers  chown: change ownership  < or >: sends the input from one file to another file in the direction of the arrow 
 
 ---
 
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls`: lists all files in current directory  
+`ls -a`: include all files beginning with a dot  
+`ls -l`:  list in long mode, meaning information including file mode, number of links, owner name, time last modified, etc.  
+`ls -lh`: list in long mode and use unit suffixes to reduce the number of digits given for the size of the file  
+`ls -lah`: list in long mode with unit suffixes and include all files beginning with a dot  
+`ls -t`: lists all files sorted by time modified most recently  
+`ls -Glp`: list in long mode with colorized output and include a slash after each file name if it's a directory
 
 ---
 
