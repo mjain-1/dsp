@@ -13,7 +13,16 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > cd: change directory  mv: move a directory  less: page through the contents of a file  find: find files  grep: find strings within files  man: call up the manual page for a command  xargs: execute arguments  chmod: change permission modifiers  chown: change ownership  < or >: sends the input from one file to another file in the direction of the arrow 
+cd: change directory  
+mv: move a directory  
+less: page through the contents of a file  
+find: find files  
+grep: find strings within files  
+man: call up the manual page for a command  
+xargs: execute arguments  
+chmod: change permission modifiers  
+chown: change ownership  
+< or >: sends the input from one file to another file in the direction of the arrow 
 
 ---
 
@@ -34,8 +43,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+ls -a: display all files  
+ls -rt: display listings by oldest modified  
+ls -lh: dispaly files in long, human-readable format  
+ls -1: display files with each file in 1 row  
+ls -u: display file by access time
 ---
 
 ###Q4.  Xargs   
