@@ -55,7 +55,11 @@ ls -u: display file by access time
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+It takes an input and executes an argument on it. For example, it can be used with the find command to filter search results:  
+  
+find . -name '*.txt' | xargs grep 'metis'  
+  
+
 
  
 
