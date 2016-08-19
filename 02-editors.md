@@ -68,6 +68,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will use Spyder because I have been using it for the past year and am comfortable with it. It offers code completion, object inspection (using the shortcut, cmd+i), and syntax highlighting. You can comment out sections of code using cmd+1 and create customizable options for using the text editor similar to emacs. 
 
  
