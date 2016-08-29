@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
-Both are sequences of values that can be of any type, e.g. string or float and that are indexed by numbers. This indexing also allows both to be sliced in order to return a range of elements. However, lists are mutable, meaning that an element can be changed, while tuples are not. Instead, you can replace an element in a tuple by creating a new one. Tuples work as keys in dictionaries because they are immutable.
+>> Both are sequences of values that can be of any type, e.g. string or float and that are indexed by numbers. This indexing also allows both to be sliced in order to return a range of elements. However, lists are mutable, meaning that an element can be changed, while tuples are not. Instead, you can replace an element in a tuple by creating a new one. Tuples work as keys in dictionaries because they are immutable.
 
 ---
 
@@ -20,7 +20,7 @@ Both are sequences of values that can be of any type, e.g. string or float and t
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
-Lists and sets are both sequences of values, however lists can contain duplicates and preserve order while sets cannot. Lists are best used when you need to iterate through contents, however sets are much faster for finding an element (e.g. checking to see whether someone is already a member, finding whether a word has already been used). The latter is true because sets are implemented using hashtables, so an object is found using its hash, rather than having to go through all of the contents as with a list. 
+>> Lists and sets are both sequences of values, however lists can contain duplicates and preserve order while sets cannot. Lists are best used when you need to iterate through contents, however sets are much faster for finding an element (e.g. checking to see whether someone is already a member, finding whether a word has already been used). The latter is true because sets are implemented using hashtables, so an object is found using its hash, rather than having to go through all of the contents as with a list. 
 
 ---
 
@@ -28,17 +28,18 @@ Lists and sets are both sequences of values, however lists can contain duplicate
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
-Lambda is another way to build functions in addition to defining (def) one. It's best used in situations where the function is only going to be used once so it does not need to be named and/or does not disrupt the flow of code so it does not need to be separated out. It can only take in one expression. The below shows lambda being used to sort the members by age:     
+>> Lambda is another way to build functions in addition to defining (def) one. It's best used in situations where the function is only going to be used once so it does not need to be named and/or does not disrupt the flow of code so it does not need to be separated out. It can only take in one expression. The below shows lambda being used to sort the members by age:     
 
 members = [('John', 26, 2013), ('Mary', 23, 2015), ('Paul', 25, 2014)]    
-sorted(members, key = lambda member: member[1])
+sorted(members, key = lambda member: member[1])    
+
 ---
 
 ###Q4. List Comprehension, Map &amp; Filter
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
-List comprehensions more concisely create lists with one line of code, and therefore much faster than writing out a function. For example, the below creates a new list of the squares of each value in the original list.    
+>> List comprehensions more concisely create lists with one line of code, and therefore much faster than writing out a function. For example, the below creates a new list of the squares of each value in the original list.    
 
 numbers = [2, 4, 5, 9]    
 numbers_squared = [x**2 for x in numbers]     
