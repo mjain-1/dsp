@@ -5,10 +5,10 @@ faculty = pd.read_csv('/Users/meghajain/Desktop/faculty.csv')
 
 ## Two ways to create csv file of emails: 
 
-## Use pandas, though this will create a column with the index for each row
-faculty[' email'].to_csv("/Users/meghajain/emails.csv") 
+## Use pandas.
+faculty[' email'].to_csv("/Users/meghajain/emails.csv", index = False) 
 
-## Use csv module, this is the file I uploaded to repository.
+## Use csv module.
 
 emails = [[email] for email in faculty[' email']]
 
