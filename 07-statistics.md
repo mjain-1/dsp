@@ -82,7 +82,7 @@ P(I|X) = (1/300)*1/(1/300*1 + 1/125*1/2) = 5/11
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist statistics define probability as related to the frequency of measured results, while in Bayesian statistics probability is related to a prior state of knowledge. What follows from this are different ideas for what is fixed vs. changing. That is, in frequentist statistics, the underlying parameters of a population are fixed while the data is not-- keeping the parameters the same, data is composed of repeatable random samples. In Bayesian statistics, the data is fixed based on what is observed and the underlying parameters are unknown. Additionally, Bayesian statistics relies on the prior state of knowledge, gleaned from various sources including other studies, intuition, etc. It then updates this state of knowledge based on the data that is observed to create a posterior distribution. Finally, they interpret confidence differently. For frequentists, x% of intervals found from repeated samples will contain the true parameter; for Bayesians, there is an x% chance that the parameter is within an interval for the given data.
 
 ---
 
